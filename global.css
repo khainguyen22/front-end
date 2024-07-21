@@ -16,7 +16,8 @@ html {
 }
 .bg-header {
   background-image: url('/public/bg-banner-1-1@2x.png');
-  background-size: c;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 @media (max-width:990px) {

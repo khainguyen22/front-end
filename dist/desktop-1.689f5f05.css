@@ -3267,8 +3267,9 @@ html {
 
 .bg-header {
   background-image: url("bg-banner-1-1@2x.04f5a90c.png");
-  background-size: c;
   background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (width <= 990px) {
