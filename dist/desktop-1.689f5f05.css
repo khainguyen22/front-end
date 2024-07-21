@@ -2142,6 +2142,16 @@
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
+.bg-grey02 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 119 122 / var(--tw-bg-opacity));
+}
+
+.bg-grey05 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 233 233 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
   box-decoration-break: slice;
