@@ -14,3 +14,24 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.bg-header {
+  background-image: url('/public/bg-banner-1-1@2x.png');
+  background-size: c;
+  background-position: 100% 100%;
+}
+@media (max-width:990px) {
+  #box-search.box-search-active {
+    width: 100%;
+    display: flex !important;
+  }
+
+  #box-menu.box-menu-active {
+    display: block !important;
+  }
+}
+@media (max-width:990px) {
+  .bg-header {
+    background-image: url('/public/mobile/banner.png');
+  }
+  
+}

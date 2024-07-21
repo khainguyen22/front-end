@@ -12,89 +12,146 @@
     </head>
     <body>
 
-        <div class="w-full relative shadow-[0px_0px_5px_rgba(0,_0,_0,_0.2)] bg-white01 overflow-hidden flex flex-col items-center justify-start pt-0 pb-[25.1px] pr-5 pl-[21px] box-border gap-3 leading-[normal] tracking-[normal] text-left text-mini text-greenf01 font-roboto mq750:gap-4">
+        <div class="w-full relative shadow-[0px_0px_5px_rgba(0,_0,_0,_0.2)] bg-white01 overflow-hidden flex flex-col items-center justify-start mq750:px-0 px-5 box-border gap-3 leading-[normal] tracking-[normal] text-left text-mini text-greenf01 font-roboto mq750:gap-4">
             
             <!-- Header -->
-            <header id="header" class="w-[1140px] flex flex-col items-start justify-start gap-[8px] max-w-full">
+            <header id="header" class="w-[1140px] flex flex-col items-start justify-start gap-2 max-w-full">
                 <div class="self-stretch flex flex-col items-start justify-start max-w-full text-center text-3xl text-saddlebrown font-roboto-condensed">
-                    <div class="self-stretch bg-white01 overflow-hidden flex flex-row items-start justify-start pt-6 px-[46px] pb-5 box-border relative gap-3 max-w-full mq1050:pl-[23px] mq1050:pr-[23px] mq1050:box-border">
-                        <img class="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover" alt="" src="/public/bg-banner-1-1@2x.png" />
-                        <div class="h-20 w-[80px] relative shrink-0 z-[1] flex items-center justify-center">
+                    <div class="self-stretch bg-header overflow-hidden flex flex-row items-start justify-start pt-6 px-10 pb-5 box-border relative gap-3 max-w-full mq1050:pl-6 mq1050:pr-6 mq1050:box-border">
+                        
+                        <div class="h-20 w-20 relative shrink-0 z-[1] flex items-center justify-center">
                             <img class="h-full w-full overflow-hidden shrink-0 z-[1] object-contain absolute left-[0px] top-[0px] [transform:scale(1.253)]" loading="lazy" alt="" src="/public/quc-huy.svg" />
                         </div>
-                        <div class="w-[660px] flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border max-w-full">
-                            <div class="self-stretch flex flex-col items-start justify-start gap-[7px] z-[1]">
-                                <a class="[text-decoration:none] relative tracking-[0.02em] leading-6 font-bold text-[inherit] inline-block min-w-[104px] whitespace-nowrap">TRANG TIN </a>
-                                <h3 class="m-0 relative text-5xl tracking-[0.02em] leading-[26px] font-normal font-roboto text-greenf01 text-left flex items-center">
+                        <div class="w-[660px] flex flex-col items-start justify-start pt-1 px-0 pb-0 box-border max-w-full">
+                            <div class="self-stretch flex flex-col items-start justify-start gap-2 z-[1] ">
+                                <a class="[text-decoration:none] relative tracking-[0.02em] leading-6 font-bold text-[inherit] inline-block  mq650:text-smi mq650:leading-[18px]">TRANG TIN </a>
+                                <h3 class="m-0 relative text-5xl tracking-[0.02em] leading-7 font-normal font-roboto text-greenf01 text-left flex items-center  mq650:text-smi mq650:leading-[18px]">
                                     <span>
-                                        <p class="m-0">PHỔ BIẾN GIÁO DỤC PHÁP LUẬT VẬN ĐỘNG NHÂN DÂN CHẤP HÀNH PHÁP LUẬT TẠI CƠ CỞ</p>
+                                        <p class="m-0 mq990:font-semibold">PHỔ BIẾN GIÁO DỤC PHÁP LUẬT VẬN ĐỘNG NHÂN DÂN CHẤP HÀNH PHÁP LUẬT TẠI CƠ CỞ</p>
                                     </span>
                                 </h3>
                             </div>
                         </div>
                     </div>
 
-                    <div class="self-stretch h-[43px] bg-greenf01 flex flex-row items-start justify-start relative max-w-full text-mini text-white01">
-                        <img class="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover" alt="" src="/public/bgmenu@2x.png" />
+
+                    <div class="mq990:hidden self-stretch h-[43px] bg-greenf01 flex flex-row items-start justify-start relative max-w-full text-mini text-white01">
                         <div class="self-stretch  flex flex-row items-start justify-start max-w-full z-[1]">
-                            <div class="bg-greenf02 flex flex-row items-start justify-start py-[5.5px] px-[3px] border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
-                                <div class="overflow-hidden flex flex-col items-center justify-center py-1.5 px-4 gap-3">
-                                    <div class="w-8 h-8 relative bg-steelblue hidden"></div>
-                                    <img class="w-5 h-5 relative" loading="lazy" alt="" src="/public/vector.svg" />
+                            <div class="bg-greenf02 flex flex-row items-start justify-start h-100 px-1 border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
+                                <div class=" flex flex-col items-center justify-center h-[43px] px-4 gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                        <path d="M20.0104 9.51046L10.7604 0.677124C10.5104 0.427124 10.1771 0.427124 9.92708 0.677124L0.677083 9.59379C0.427083 9.76046 0.34375 10.0105 0.34375 10.2605C0.34375 10.8438 0.84375 11.3438 1.42708 11.3438H2.84375V19.2605C2.84375 19.9271 3.42708 20.5105 4.09375 20.5105H7.67708C8.01042 20.5105 8.34375 20.2605 8.34375 19.8438V14.4271C8.34375 14.3438 8.42708 14.1771 8.59375 14.1771H12.3437C12.4271 14.1771 12.5938 14.2605 12.5938 14.4271V19.8438C12.5938 20.1771 12.8437 20.5105 13.2604 20.5105H16.8437C17.5104 20.5105 18.0937 19.9271 18.0937 19.2605V11.3438H19.5938C20.1771 11.3438 20.6771 10.8438 20.6771 10.2605C20.3437 10.0105 20.2604 9.76046 20.0104 9.51046Z" fill="white"/>
+                                        </svg>
                                 </div>
                             </div>
-                            <div class="self-stretch  flex flex-row items-start justify-start max-w-full">
-                                <div class="flex flex-row items-start justify-start pt-4 px-4 pb-2.5 border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
-                                    <b class="relative tracking-[0.02em] leading-6 uppercase whitespace-nowrap">Cổng TTĐT Bộ Quốc phòng</b>
+                            <div class="self-stretch  flex flex-row items-center justify-start max-w-full text-base">
+                                <div class="flex flex-row items-start justify-start px-4 py-2 border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
+                                    <b class="relative tracking-[0.02em] leading-6 uppercase ">Cổng TTĐT Bộ Quốc phòng</b>
                                 </div>
-                                <div class="flex flex-row items-start justify-start pt-4 px-4 pb-2.5 border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
-                                    <b class="relative tracking-[0.02em] leading-6 uppercase whitespace-nowrap">Ban Chỉ đạo Đề án 1371</b>
+                                <div class="flex flex-row items-start justify-start px-4 py-2 border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
+                                    <b class="relative tracking-[0.02em] leading-6 uppercase ">Ban Chỉ đạo Đề án 1371</b>
                                 </div>
-                                <div class="flex flex-row items-start justify-start pt-2 px-4 pb-2 text-base border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
-                                    <b class="relative leading-6 uppercase whitespace-nowrap">THƯ VIỆN PHÁP LUẬT </b>
+                                <div class="flex flex-row items-start justify-start px-4 py-2 border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
+                                    <b class="relative leading-6 uppercase ">THƯ VIỆN PHÁP LUẬT </b>
                                 </div>
-                                <div class="flex flex-row items-start justify-start pt-2 px-4 pb-2 text-base border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
-                                    <a class="[text-decoration:none] relative leading-6 uppercase font-bold text-[inherit] inline-block min-w-[106px] whitespace-nowrap">Tin hoạt động</a>
+                                <div class="flex flex-row items-start justify-start px-4 py-2 border-r-[1px] border-solid border-gray hover:bg-greenf02 cursor-pointer">
+                                    <a class="[text-decoration:none] relative leading-6 uppercase font-bold text-[inherit] inline-block min-w-[106px] ">Tin hoạt động</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
-            <!-- END Header -->
-
-            <main class="w-[1140px] flex flex-col items-start justify-start max-w-full text-3xl font-roboto-condensed">
                 <!-- Breadcrumbs -->
-                <section class="self-stretch flex flex-col items-start justify-start mb-2 max-w-full">
-                    <div class="self-stretch flex flex-row items-end justify-between max-w-full gap-[20px] mq1050:flex-wrap">
+                <div class="self-stretch flex flex-col items-start justify-start mb-2 max-w-full mq990:px-3">
+                    <div class="self-stretch flex flex-row items-end justify-between max-w-full gap-5 mq1050:flex-wrap mq750:gap-2">
+                        <div class="mq990:block hidden cursor-pointer" id="nav-menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                <g clip-path="url(#clip0_105_7367)">
+                                <path d="M5.5 15H19.5C20.05 15 20.5 14.55 20.5 14C20.5 13.45 20.05 13 19.5 13H5.5C4.95 13 4.5 13.45 4.5 14C4.5 14.55 4.95 15 5.5 15ZM5.5 19H19.5C20.05 19 20.5 18.55 20.5 18C20.5 17.45 20.05 17 19.5 17H5.5C4.95 17 4.5 17.45 4.5 18C4.5 18.55 4.95 19 5.5 19ZM5.5 11H19.5C20.05 11 20.5 10.55 20.5 10C20.5 9.45 20.05 9 19.5 9H5.5C4.95 9 4.5 9.45 4.5 10C4.5 10.55 4.95 11 5.5 11ZM4.5 6C4.5 6.55 4.95 7 5.5 7H19.5C20.05 7 20.5 6.55 20.5 6C20.5 5.45 20.05 5 19.5 5H5.5C4.95 5 4.5 5.45 4.5 6Z" fill="#006339"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_105_7367">
+                                <rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                        </div>
                         <div class="flex flex-col items-start justify-end pt-0 px-0 pb-1 box-border max-w-full">
-                            <div class="self-stretch relative text-lg leading-6">
+                            <div class="self-stretch relative text-lg leading-6 mq650:text-base">
                                 Thứ Hai, ngày 20/02/2023
                             </div>
                         </div>
-                        <div class="w-[400px] rounded-10xs bg-white01 box-border flex flex-row items-end justify-start py-0 pr-px pl-[9px] gap-[105.2px] max-w-full border-[1px] border-solid border-silver mq450:flex-wrap mq450:gap-[53px]">
-                            <div class="h-9 w-[400px] relative rounded-10xs bg-white01 box-border hidden max-w-full border-[1px] border-solid border-silver"></div>
+                        <div class="mq990:flex hidden items-center gap-2">
+                            <div id="nav-search" class="cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                    <path d="M15.5 20C12.7 20 10.5 17.8 10.5 15C10.5 12.2 12.7 10 15.5 10C18.3 10 20.5 12.2 20.5 15C20.5 17.8 18.3 20 15.5 20ZM15.5 12C13.8 12 12.5 13.3 12.5 15C12.5 16.7 13.8 18 15.5 18C17.2 18 18.5 16.7 18.5 15C18.5 13.3 17.2 12 15.5 12Z" fill="#006339"/>
+                                    <path d="M21.5 22C21.2 22 21 21.9 20.8 21.7L18.3 19.2C17.9 18.8 17.9 18.2 18.3 17.8C18.7 17.4 19.3 17.4 19.7 17.8L22.2 20.3C22.6 20.7 22.6 21.3 22.2 21.7C22 21.9 21.8 22 21.5 22Z" fill="#006339"/>
+                                    <path d="M20.5 7H4.5C3.9 7 3.5 6.6 3.5 6C3.5 5.4 3.9 5 4.5 5H20.5C21.1 5 21.5 5.4 21.5 6C21.5 6.6 21.1 7 20.5 7Z" fill="#006339"/>
+                                    <path d="M8.5 13H4.5C3.9 13 3.5 12.6 3.5 12C3.5 11.4 3.9 11 4.5 11H8.5C9.1 11 9.5 11.4 9.5 12C9.5 12.6 9.1 13 8.5 13Z" fill="#006339"/>
+                                    <path d="M8.5 19H4.5C3.9 19 3.5 18.6 3.5 18C3.5 17.4 3.9 17 4.5 17H8.5C9.1 17 9.5 17.4 9.5 18C9.5 18.6 9.1 19 8.5 19Z" fill="#006339"/>
+                                    </svg>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                    <g clip-path="url(#clip0_105_7384)">
+                                    <path d="M16.125 20H4.875C2.45703 20 0.5 18.043 0.5 15.625V4.375C0.5 1.95703 2.45703 0 4.875 0H16.125C18.543 0 20.5 1.95703 20.5 4.375V15.625C20.5 18.043 18.543 20 16.125 20Z" fill="#006339"/>
+                                    <path d="M8.79346 16L7.13818 5.32129H9.81152L10.4121 13.5537H10.4414L11.5181 5.32129H13.8472L12.0601 16H8.79346Z" fill="#FFDB20"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_105_7384">
+                                    <rect width="20" height="20" fill="white" transform="translate(0.5)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                            </div>
+                        </div>
+                        <div id="box-search" class="mq990:hidden mq990:min-w-0 min-w-[400px] rounded bg-white01 box-border flex flex-row items-end justify-start py-0 pr-px pl-2 gap-4 mq990:max-w-full border-[1px] border-solid border-silver ">
                             <input
-                                class="w-[calc(100%_-_25.1px)] [border:none] [outline:none] bg-[transparent] h-[26.3px]  flex flex-col items-start justify-end pt-0 px-0 pb-[2.3px] box-border font-roboto font-medium text-mini text-grey02 min-w-[163px]"
+                                class="w-[calc(100%_-_25.1px)] [border:none] [outline:none] bg-[transparent] h-[34px]  flex flex-col items-start justify-end pt-0 px-0 pb-[2px] box-border font-roboto font-medium text-mini text-grey02 min-w-[163px]"
                                 placeholder="Tìm kiếm nội dung"
                                 type="text"
                             />
-                            <div class="h-8 w-8 rounded-10xs bg-greenf01 box-border flex flex-row items-center justify-end py-2 pr-2 pl-[7px] z-[1] border-[1px] border-solid border-greenf01">
-                                <img class="h-[15.1px] w-[15.1px] relative" alt="" src="/public/vector-1.svg" />
+                            <div class="h-8 w-8 mb-[1px] rounded bg-greenf01 box-border flex flex-row items-center justify-end py-2 pr-2 pl-2 z-[1] border-[1px] border-solid border-greenf01">
+                                <svg class="rounded" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M15.8287 14.53L12.1541 10.8549C13.0675 9.75643 13.6177 8.34581 13.6177 6.80882C13.6177 3.3139 10.7749 0.470581 7.28059 0.470581C3.78622 0.470581 0.943359 3.3139 0.943359 6.80882C0.943359 10.3035 3.78622 13.1466 7.28059 13.1466C8.8173 13.1466 10.2278 12.5963 11.3262 11.6828L15.0008 15.3579C15.1151 15.4723 15.265 15.5294 15.4148 15.5294C15.5645 15.5294 15.7144 15.4723 15.8287 15.3579C16.0574 15.1292 16.0574 14.7586 15.8287 14.53ZM2.11416 6.80882C2.11416 3.95957 4.4318 1.64154 7.28059 1.64154C10.1293 1.64154 12.4469 3.95957 12.4469 6.80882C12.4469 9.65783 10.1293 11.9756 7.28059 11.9756C4.4318 11.9756 2.11416 9.65783 2.11416 6.80882Z" fill="white"/>
+                                    </svg>
+                            </div>
+                        </div>
+                        <div id="box-menu" class="hidden  w-full">
+                            <div class=" rounded bg-white01 box-border flex flex-col max-w-full border-[1px] border-solid border-silver mq750:text-sm">
+                                <div class="self-stretch  flex flex-col items-start justify-start w-full text-base overflow-hidden">
+                                    <div class="cursor-pointer px-2 py-1 flex items-center w-full hover:bg-greenf02 hover:text-white">
+                                        <b class="relative tracking-[0.02em] leading-6 uppercase ">Cổng TTĐT Bộ Quốc phòng</b>
+                                    </div>
+                                    <div class="cursor-pointer px-2 py-1 flex items-center w-full hover:bg-greenf02 hover:text-white">
+                                        <b class="relative tracking-[0.02em] leading-6 uppercase ">Ban Chỉ đạo Đề án 1371</b>
+                                    </div>
+                                    <div class="cursor-pointer px-2 py-1 flex items-center w-full hover:bg-greenf02 hover:text-white">
+                                        <b class="relative leading-6 uppercase ">THƯ VIỆN PHÁP LUẬT </b>
+                                    </div>
+                                    <div class="cursor-pointer px-2 py-1 flex items-center w-full hover:bg-greenf02 hover:text-white">
+                                        <b class="relative leading-6 uppercase ">Tin hoạt động </b>
+                                    </div> 
+                                </div>
                             </div>
                         </div>
                     </div> 
-                </section>
+                </div>
                 <!-- END Breadcrumbs -->
+            </header>
+            <!-- END Header -->
 
-                <div class="self-stretch flex flex-row items-start justify-start gap-8 max-w-full text-black mq750:gap-4 mq1050:flex-wrap">
+
+            <main class="w-[1140px] flex flex-col items-start justify-start max-w-full text-3xl font-roboto-condensed">
+
+                <div class="self-stretch flex flex-row items-start justify-start gap-8 max-w-full text-black mq750:gap-4 mq1050:flex-wrap mq990:px-4">
                     <div class=" flex flex-col items-start justify-start pt-2 px-0 pb-0 box-border max-w-full mq750:min-w-full">
                         <div class="self-stretch flex flex-col items-start justify-start gap-[1px] max-w-full">
 
                             <!-- VĂN BẢN PHÁP LUẬT -->
                             <section class= "w-full">
-                                <div class="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[29px] gap-3 text-greenf01 my-2">
-                                    <h3 class="m-0 relative text-inherit tracking-[0.03em] leading-6 font-bold font-inherit mq450:text-lg mq450:leading-[19px]">
+                                <div class="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-7 gap-3 text-greenf01 my-2">
+                                    <h3 class="m-0 relative text-inherit tracking-[0.03em] leading-6 font-bold font-inherit mq450:text-lg mq450:leading-5">
                                     VĂN BẢN PHÁP LUẬT
                                     </h3>
                                     <div class="self-stretch h-0.5 relative bg-grey04">
@@ -103,7 +160,7 @@
                                     </div>
                                 </div>
                                 <div class = "text-base flex flex-col gap-4">
-                                    <div class="grid grid-cols-2 gap-4">
+                                    <div class="grid grid-cols-2 gap-4 mq750:grid-cols-1">
                                         <div class="flex flex-col gap-2">
                                             <label for="document_number">Số hiệu văn bản</label>
                                             <input type="text" placeholder="Nhập tên số vb" class="self-stretch rounded-8xs bg-white01 p-2 border-[1px] border-solid border-grey03">
@@ -124,7 +181,7 @@
                                             <textarea placeholder="Nhập nội dung" class="self-stretch rounded-8xs bg-white01 p-2 border-[1px] border-solid border-grey03">
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 gap-4">
+                                    <div class="grid grid-cols-2 gap-4 mq750:grid-cols-1">
                                         <div class="flex flex-col gap-2">
                                             <label for="document_type">Loại văn bản</label>
                                             <select name="document_type" class="self-stretch rounded-8xs bg-white01 p-2 border-[1px] border-solid border-grey03">
@@ -161,41 +218,41 @@
                                 <table class="w-full text-[1rem] border border-greyil07 table-auto">
                                     <thead class="text-center bg-greyil07">
                                         <tr>
-                                            <th class="p-2 min-w-4">STT</th>
+                                            <th class="p-2 min-w-4 mq750:hidden">STT</th>
                                             <th class="p-2 min-w-28">Số ký hiệu</th>
-                                            <th class="p-2 min-w-28">Ngày ban hành</th>
+                                            <th class="p-2 min-w-28 mq750:hidden">Ngày ban hành</th>
                                             <th class="p-2 min-w-28">Trích yếu</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="p-2 text-center">1</td>
+                                            <td class="p-2 text-center mq750:hidden">1</td>
                                             <td class="p-2">6235/QĐ-BQP</td>
-                                            <td class="p-2">30/11/2023</td>
+                                            <td class="p-2 mq750:hidden">30/11/2023</td>
                                             <td class="p-2">Danh mục thủ tục hành chính thực hiện trên môi trường điện tử thuộc phạm vi chức năng quản lý của Bộ Quốc phòng năm 2023</td>
                                         </tr>
                                         <tr class="bg-greyil07">
-                                            <td class="min-w-10 p-2 text-center">2</td>
+                                            <td class="min-w-10 p-2 text-center mq750:hidden">2</td>
                                             <td class="p-2">95/2023/TT-BQP</td>
-                                            <td class="p-2">29/11/2023</td>
+                                            <td class="p-2 mq750:hidden">29/11/2023</td>
                                             <td class="p-2">Quy định về cải tạo xe cơ giới, xe máy chuyên dùng thuộc phạm vi quản lý của Bộ Quốc phòng</td>
                                         </tr>
                                         <tr>
-                                            <td class="min-w-10 p-2 text-center">3</td>
+                                            <td class="min-w-10 p-2 text-center mq750:hidden">3</td>
                                             <td class="p-2">96/2023/TT-BQP</td>
-                                            <td class="p-2">30/11/2023</td>
+                                            <td class="p-2 mq750:hidden">30/11/2023</td>
                                             <td class="p-2">Ban hành “Quy chuẩn kỹ thuật quốc gia về đặc tính kỹ thuật mật mã sử dụng trong các sản phẩm mật mã dân sự thuộc nhóm sản phẩm bảo mật dữ liệu lưu giữ”</td>
                                         </tr>
                                         <tr class="bg-greyil07">
-                                            <td class="min-w-10 p-2 text-center">4</td>
+                                            <td class="min-w-10 p-2 text-center mq750:hidden">4</td>
                                             <td class="p-2">95/2023/TT-BQP</td>
-                                            <td class="p-2">30/11/2023</td>
+                                            <td class="p-2 mq750:hidden">30/11/2023</td>
                                             <td class="p-2">Quy định về cải tạo xe cơ giới, xe máy chuyên dùng thuộc phạm vi quản lý của Bộ Quốc phòng</td>
                                         </tr>
                                         <tr>
-                                            <td class="min-w-10 p-2 text-center">5</td>
+                                            <td class="min-w-10 p-2 text-center mq750:hidden">5</td>
                                             <td class="p-2">96/2023/TT-BQP</td>
-                                            <td class="p-2">30/11/2023</td>
+                                            <td class="p-2 mq750:hidden">30/11/2023</td>
                                             <td class="p-2">Ban hành “Quy chuẩn kỹ thuật quốc gia về đặc tính kỹ thuật mật mã sử dụng trong các sản phẩm mật mã dân sự thuộc nhóm sản phẩm bảo mật dữ liệu lưu giữ”</td>
                                         </tr>
                                     </tbody>
@@ -237,7 +294,7 @@
                     <!-- sidebar -->
                     <aside class="w-[400px] flex flex-col items-start justify-start min-w-[400px] max-w-full text-justify text-base font-roboto mq750:min-w-full mq1050: gap-4">
                         <div class="self-stretch flex flex-col items-start justify-start gap-3 text-greenf01 my-0">
-                            <h3 class="m-0 relative text-2xl tracking-[0.03em] leading-6 font-bold font-inherit mq450:text-lg mq450:leading-[19px]">
+                            <h3 class="m-0 relative text-2xl tracking-[0.03em] leading-6 font-bold font-inherit mq450:text-lg mq450:leading-5">
                                 TIÊU ĐIỂM
                             </h3>
                             <div class="self-stretch h-0.5 relative bg-grey04">
@@ -245,43 +302,28 @@
                                 <div class="absolute top-[0px] left-[0px] bg-greenf01 w-[196px] h-0.5 z-[1]"></div>
                             </div>
                         </div>
-                        <div class=" flex flex-col items-start justify-start  box-border gap-4 max-w-full shrink-0 mq750:pt-5 mq750:pb-[23px] mq750:box-border">
+                        <div class=" flex flex-col items-start justify-start  box-border gap-4 max-w-full shrink-0 mq750:gap-2 mq750:pt-5 mq750:pb-6 mq750:box-border">
                             <div class="self-stretch relative leading-6">
                                 Danh mục thủ tục hành chính thực hiện trên môi trường điện tử thuộc quản lý của Bộ Quốc phòng năm 2023
                             </div>
                             <div class="self-stretch flex flex-col items-end justify-start gap-4 max-w-full">
-                                <div class="self-stretch h-px flex flex-row items-start justify-end py-0 pr-0.5 pl-1 box-border max-w-full">
-                                    <div class="self-stretch  relative box-border max-w-full border-t-[1px] border-dashed border-grey03"></div>
-                                </div>
                                 <div class="self-stretch relative leading-6">
                                     Thông tư quy chuẩn quốc gia về đặc tính kỹ thuật mật mã dùng trong sản phẩm mật mã dân sự thuộc nhóm sản phẩm bảo mật dữ liệu lưu giữ
                                 </div>
                             </div>
                             <div class="self-stretch flex flex-col items-end justify-start gap-4 max-w-full">
-                                <div class="self-stretch h-px flex flex-row items-start justify-end py-0 pr-0.5 pl-1 box-border max-w-full">
-                                    <div class="self-stretch  relative box-border max-w-full border-t-[1px] border-dashed border-grey03"></div>
-                                </div>
                                 <div class="self-stretch relative leading-6">
                                     Thông tư quy định về cải tạo xe cơ giới, xe máy chuyên dùng thuộc quản lý của Bộ Quốc phòng
                                 </div>
                             </div>
                             <div class="self-stretch flex flex-col items-end justify-start gap-4 max-w-full">
-                                <div class="self-stretch h-px flex flex-row items-start justify-end py-0 pr-0.5 pl-1 box-border max-w-full">
-                                    <div class="self-stretch  relative box-border max-w-full border-t-[1px] border-dashed border-grey03"></div>
-                                </div>
                                 <div class="self-stretch relative leading-6">
                                     Tuyên bố chung về việc nâng cấp quan hệ Việt Nam - Nhật Bản lên Đối tác Chiến lược toàn diện vì hòa bình và thịnh vượng tại châu Á và trên thế giới
                                 </div>
                             </div>
                             <div class="self-stretch flex flex-col items-end justify-start gap-4 max-w-full">
-                                <div class="self-stretch h-px flex flex-row items-start justify-end py-0 pr-0.5 pl-1 box-border max-w-full">
-                                    <div class="self-stretch  relative box-border max-w-full border-t-[1px] border-dashed border-grey03"></div>
-                                </div>
                                 <div class="self-stretch relative leading-6">
                                     Thông tư quy định màu sắc, cờ hiệu, phù hiệu, tín hiệu của tàu thuyền, máy bay, xe - máy và phương tiện khác của Bộ đội Biên phòng
-                                </div>
-                                <div class="self-stretch h-px flex flex-row items-start justify-end py-0 pr-0.5 pl-1 box-border max-w-full">
-                                    <div class="self-stretch  relative box-border max-w-full border-t-[1px] border-dashed border-grey03"></div>
                                 </div>
                             </div>
                         </div>
@@ -296,9 +338,10 @@
 
             </main>
 
-            <footer class="w-[1140px] flex flex-col items-start justify-start gap-[21px] max-w-full mx-auto text-justify text-base">
-                <div class="bg-greyil07 flex flex-row items-center justify-center py-[5px] w-full box-border gap-[80px] max-w-full mq750:gap-[20px] mq750:pl-[70px] mq750:pr-[42px] mq750:box-border mq1150:flex-wrap mq1150:gap-[40px] mq1150:pl-[140px] mq1150:pr-[84px] mq1150:box-border mq450:pl-5 mq450:pr-5 mq450:box-border" >
-                    <div class="flex items-start justify-start pt-[4.8px] px-0 pb-0 box-border max-w-full color-[#00884f] font-semibold gap-3 uppercase">
+
+            <footer class="w-[1140px] pb-8 mq750:pb-4 flex flex-col items-start justify-start gap-5 max-w-full mx-auto text-justify text-base mq990:w-full">
+                <div class="px-4 bg-greyil07 flex flex-row items-center justify-center py-1 w-full box-border  max-w-full gap-4 " >
+                    <div class="flex flex-wrap items-start justify-center pt-1 px-0 pb-0 box-border max-w-full color-[#00884f] font-semibold gap-3 uppercase">
                         <div class="text-black05 hover:text-greenf02 cursor-pointer">Trang chủ</div>
                         <span>|</span>
                         <div class="text-black05 hover:text-greenf02 cursor-pointer">Cổng ttđt BQP</div>
@@ -309,35 +352,36 @@
                         <span>|</span>
                         <div class="text-black05 hover:text-greenf02 cursor-pointer">LIÊN HỆ</div>
                     </div>
-                    <a href="#header">
-                        <img class="h-8 w-8 relative rounded-xl overflow-hidden shrink-0 z-[1]" loading="lazy" alt="Top" src="/public/iconmenu.svg" />
-                    </a>
                 </div>
-                <div class="self-stretch  relative text-black text-center inline-block shrink-0 text-lg">
-                    <p class="m-0">
-                        <b class="leading-6 capitalize">CỔNG THÔNG TIN ĐIỆN TỬ BỘ QUỐC PHÒNG NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b>
-                    </p>
-                    <p class="m-0 text-base">
-                        <span>
-                            <span>Địa chỉ: Số 7, Nguyễn Tri Phương, Ba Đình, Hà Nội</span>
-                            <span>*Tel: +84-69.553215 </span>
-                            <span>* Email: info@mod.gov.vn</span>
-                        </span>
-                    </p>
-                    <p class="m-0">
-                        <span class="leading-6">Website: bqp.vn, mod.gov.vn</span>
-                        <span class="leading-6">* Tổng Biên tập: Thượng tá Nguyễn Thanh Bình</span>
-                    </p>
-                    <p class="m-0">
-                        <span class="leading-6">Quyết định cho phép hoạt động: 3548/QÐ-BQP, ngày 25/9/2012</span>
-                    </p>
-                    <p class="m-0">
-                        <span class="leading-6">® Ghi rõ nguồn bqp.vn hoặc mod.gov.vn khi phát hành lại thông tin từ Cổng TTÐT BQP.</span>
-                    </p>
+                <div class="self-stretch text-black text-center shrink-0 mq990:w-full text-base">
+                    <div class=" mq750:px-4 ">
+                        <p class="m-0 leading-6 capitalize font-semibold text-lg pb-2" >CỔNG THÔNG TIN ĐIỆN TỬ BỘ QUỐC PHÒNG NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</p>
+                        <p class="mb-1 mt-0 text-base">
+                            <span>
+                                <span>Địa chỉ: Số 7, Nguyễn Tri Phương, Ba Đình, Hà Nội</span>
+                                <span>*Tel: +84-69.553215 </span>
+                                <span>* Email: info@mod.gov.vn</span>
+                            </span>
+                        </p>
+                        <p class="mb-1 mt-0">
+                            <span class="leading-6">Website: bqp.vn, mod.gov.vn</span>
+                            <span class="leading-6">* Tổng Biên tập: Thượng tá Nguyễn Thanh Bình</span>
+                        </p>
+                        <p class="mb-1 mt-0">
+                            <span class="leading-6">Quyết định cho phép hoạt động: 3548/QÐ-BQP, ngày 25/9/2012</span>
+                        </p>
+                        <p class="mb-1 mt-0">
+                            <span class="leading-6">® Ghi rõ nguồn bqp.vn hoặc mod.gov.vn khi phát hành lại thông tin từ Cổng TTÐT BQP.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="back_to_top fixed right-8 bottom-8 z-10 hidden">
+                    <img class="h-8 w-8 relative rounded-xl overflow-hidden shrink-0 z-[1] cursor-pointer" loading="lazy" alt="Top" src="/public/iconmenu.svg" />
                 </div>
             </footer>
 
         </div>
-
     </body>
+    <script src="/main.js"></script>
 </html>
