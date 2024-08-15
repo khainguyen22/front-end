@@ -1,0 +1,214 @@
+/* Roboto Fonts */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Inter Fonts */
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+/* Sarabun Fonts */
+@font-face {
+  font-family: 'Sarabun';
+  src: url('../font/Sarabun/Sarabun-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Sarabun';
+  src: url('../font/Sarabun/Sarabun-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Sarabun';
+  src: url('../font/Sarabun/Sarabun-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Sarabun';
+  src: url('../font/Sarabun/Sarabun-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+/* Helvetica */
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/Helvetica/Helvetica-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+/* Font Classes */
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.font-roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.font-roboto-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.font-roboto-thin {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.font-roboto-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-roboto-bold-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-roboto-light-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-roboto-thin-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-inter-italic {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+}
+
+.font-sarabun {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.font-sarabun-regular {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+}
+
+.font-sarabun-bold {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+
+.font-sarabun-medium {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 500;
+}
+
+.font-sarabun-light {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 300;
+}
+
+.font-helvetica-bold {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+}
+
+
+*,
+::before,
+::after {
+  border-width: 0;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+.bg-header {
+  background-image: url('./../public/bg-banner-1-1@2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+@media (max-width:990px) {
+  #box-search.box-search-active {
+    width: 100%;
+    display: flex !important;
+  }
+
+  #box-menu.box-menu-active {
+    display: block !important;
+  }
+}
+@media (max-width:990px) {
+  .bg-header {
+    background-image: url('./../public/mobile/banner.png');
+  }
+  
+}
+.text-shadow {
+  text-shadow: 1px 1px #FFFFFFCC;
+}
