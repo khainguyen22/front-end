@@ -3364,6 +3364,11 @@
     width: 60%;
   }
 
+
+  .mq990\:w-\[65\%\] {
+    width: 65%;
+  }
+
   .mq990\:min-w-0 {
     min-width: 0;
   }
@@ -3565,6 +3570,9 @@
 
   .mq650\:leading-\[18px\] {
     line-height: 18px;
+  }
+  .mq650\:leading-\[17px\] {
+    line-height: 17px;
   }
 }
 

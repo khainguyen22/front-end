@@ -83,6 +83,11 @@
   src: url('../font/Helvetica/Helvetica-Bold.ttf') format('truetype');
   font-weight: 700;
 }
+@font-face {
+  font-family: 'Helvetica Compressed';
+  src: url('../font/HelveticaComp.ttf') format('truetype');
+  font-weight: 700;
+}
 
 
 /* Font Classes */
@@ -171,6 +176,10 @@
   font-family: 'Helvetica', sans-serif;
   font-weight: 700;
 }
+.font-helvetica-compressed-bold {
+  font-family: 'Helvetica Compressed', sans-serif;
+  font-weight: 700;
+}
 
 
 *,
@@ -202,12 +211,43 @@ body {
   #box-menu.box-menu-active {
     display: block !important;
   }
-}
-@media (max-width:990px) {
   .bg-header {
     background-image: url('./../public/mobile/banner.png');
+    background-size: 100% 100%;
   }
-  
+  header .head-shadow {
+    /* padding-top: 6px;
+    padding-bottom: 12px; */
+    box-shadow: 0px 3px 3px 0px #00000026;
+  }
+  .head-name {
+    letter-spacing: 5%;
+  }
+  header .head-shadow .head-nav {
+    padding-top: 10px;
+  }
+  header .head-date {
+    font-size: 15px;
+    line-height: 17.58px;
+    font-weight: 400;
+  }
+  .bg-header {
+  gap: 16px;
+  }
+  .logo {
+    margin-right: 10px;
+    display: block;
+  }
+  #box-search {
+    margin-bottom: .5rem;
+  }
+  #box-search {
+    min-height: 38px;
+    align-items: center;
+  }
+  .head-nav-br > div{
+    min-height: 28px;
+  }
 }
 .text-shadow {
   text-shadow: 1px 1px #FFFFFFCC;
