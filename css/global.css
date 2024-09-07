@@ -3418,7 +3418,9 @@
   .mq750\:box-border {
     box-sizing: border-box;
   }
-
+  .mq750\:italic {
+    font-style: italic;
+  }
   .mq750\:block {
     display: block;
   }
